@@ -1,1 +1,2 @@
-https://borgejush.github.io/rsschool-cv/cv
+
+https://borgejush.github.io/rsschool-cv/
