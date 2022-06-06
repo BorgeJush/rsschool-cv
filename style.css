@@ -1,0 +1,56 @@
+.one, .onetwo {
+    height: auto;
+    width: 82px;
+    background-color: rgb(111, 252, 123);
+    margin: 8px;
+}
+.two, .twotwo {
+    margin: 8px;
+    height: 82px;
+    width: 82px;
+    background-color: rgb(255, 211, 68);
+}
+.three, .threetwo {
+    margin: 8px;
+    height: 82px;
+    width: 82px;
+    background-color: rgb(221, 66, 66);
+}
+.four, .fourtwo { 
+    margin: 8px;
+    height: 82px;
+    width: 120px;
+    background-color: rgb(10, 140, 216);
+
+}
+
+.sectionone{
+    height: 370px;
+    background-color: rgb(241, 240, 240);
+    display: flex;
+   justify-content: space-around;
+ 
+
+}
+
+.sectiontwo{
+    height: 370px;
+    background-color: rgb(241, 240, 240);
+    display: flex;
+   justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+    .sectiontwo{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .onetwo, .twotwo, .threetwo, .fourtwo {
+
+        height: 50px;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+}
