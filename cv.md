@@ -18,6 +18,7 @@ __Basic knowledges__
 * HTML & CSS
 * JavaScript
 * GIT
+* English B1
 
 # Code sample #
 
