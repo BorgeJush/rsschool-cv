@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+section {
+    width: 980px;
+    height: 1080px;
+    background-color: bisque;
+}
+
+header {
+    margin: 10px 10px 0px 10px;
+    display: flex;
+    height: 200px;
+    background-color: azure;
+}
+
+.photo{
+    width: 20%;
+    height: auto;
+    background-color: brown;
+}
+
+.contacts{
+    padding: 0px 5px 10px 5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.photo{
+    background-image: url();
+}
+
+.aboutMS{
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    height: 100%;
+}
