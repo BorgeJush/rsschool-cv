@@ -1,1 +1,2 @@
-# rsschool-cv
+
+https://borgejush.github.io/rsschool-cv/
